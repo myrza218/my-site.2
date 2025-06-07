@@ -234,9 +234,7 @@ body {
     margin: 0%;
     padding: 0%;
   }
-  .ascii-art {
-    display: block;
-  }
+
 }
  
 @media (max-width: 430px) {
