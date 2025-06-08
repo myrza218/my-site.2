@@ -134,6 +134,10 @@ body {
   list-style: square;
   padding-left: 20px;
 }
+
+.container ul li {
+  padding: 3px;
+}
 .container h2 {
   color: #ffcc00;
   margin-bottom: 15px;
@@ -196,16 +200,26 @@ body {
 
 #next {
   color: rgb(230, 166, 3);
+  text-decoration: none;
+     font-size: 1.5em;
+   padding-right: 1px;
+ 
 }
 #back {
   color: #d6fc008f;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-left: 2px;
+
 }
 #next:hover {
-  color: rgba(255, 217, 0, 0.984);
+   color: rgba(255, 217, 0, 0.984);
 }
 #back:hover {
   color: #d6fc00;
 }
+
+
 
 .return {
   color: rgb(230, 166, 3);
@@ -227,15 +241,33 @@ body {
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   html,
   body {
     overflow: hidden;
     margin: 0%;
     padding: 0%;
   }
+  .ascii-art {
+    display: none;
+  }
+
+  /* .wrong-box { */
+  
+
+/* margin-top: 120px; */
 
 }
+
+.correct-box {
+  
+margin-top: 120px;
+
+}
+
+
+
+
  
 @media (max-width: 430px) {
   html,
@@ -246,5 +278,151 @@ body {
   }
  
 
+  .main-wrong {
+  display: flex;
+  align-items: center;
 }
+
+.main-correct {
+  display: flex;
+  align-items: center;
+
+}
+.wrong-box {
+  
+margin-top: 150px;
+}
+
+.correct-box {
+
+  margin-top: 150px;
+
+}
+
+.wrong-box :nth-of-type(2) {
+  font-size: 12px;
+
+}
+.correct-box :nth-of-type(2) {
+  font-size: 12px;
+
+}
+  
+
+  #next {
+ 
+     font-size: 1.3em;
+   padding-right: 1px;
+ 
+}
+#back {
+ 
+  font-size: 1.4em;
+  padding-left: 2px;
+
+}
+
+
+
+}
+
+
+@media (max-width: 370px) {
+  html,
+  body {
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+  }
+ 
+
+  #welcome {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+  height: 500px;
+}
+
+#welcome h1 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #00ffe7;
+}
+
+#welcome p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+#welcome a {
+  display: inline-block;
+  background: #06b1a0;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 10px;
+  transition: background 0.5s ease;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#welcome a:hover {
+  background: #00c0aa;
+  color: #fff;
+}
+
+  .main-wrong {
+  display: flex;
+  align-items: center;
+}
+
+.main-correct {
+  display: flex;
+  align-items: center;
+
+}
+.wrong-box {
+  
+margin-top: 150px;
+}
+
+.correct-box {
+
+  margin-top: 150px;
+
+}
+
+.wrong-box :nth-of-type(2) {
+  font-size: 12px;
+
+}
+.correct-box :nth-of-type(2) {
+  font-size: 12px;
+
+}
+  
+
+  #next {
+ 
+     font-size: 1.3em;
+   padding-right: 1px;
+ 
+}
+#back {
+ 
+  font-size: 1.4em;
+  padding-left: 2px;
+
+}
+
+
+
+}
+
+
 
